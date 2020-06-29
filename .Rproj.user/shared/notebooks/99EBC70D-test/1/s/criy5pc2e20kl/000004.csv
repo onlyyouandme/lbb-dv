@@ -1,0 +1,76 @@
+"0","bankm <- bankm %>% "
+"0","  mutate_if(is.integer, as.numeric) %>% "
+"0","  mutate("
+"0","    job = as.factor(job),"
+"0","    default = as.factor(default),"
+"0","    marital = as.factor(marital),"
+"0","    education = as.factor(education),"
+"0","    housing = as.factor(housing),"
+"0","    loan = as.factor(loan),"
+"0","    contact = as.factor(contact),"
+"0","    y = as.factor(y),"
+"0","    month = as.factor(month),"
+"0","    age = as.character(age),"
+"0","    "
+"0","  )"
+"0",""
+"0","glimpse(bankm)"
+"1","Rows: 45,211"
+"1",""
+"1","
+"
+"1","Columns: 17"
+"1",""
+"1","
+"
+"1","$ age       [3m[38;5;246m<chr>[39m[23m ""58"", ""44"", ""33"", ""47"", ""33"", ""35"", ""28"", ""42"", ""58"", ""43"", ""41"", ""29"", ""53"", ""58"", ""57"", ""51...
+$ job       [3m[38;5;246m<fct>[39m[23m management, technician, entrepreneur, blue-collar, unknown, management, management, entrepren...
+$ marital   [3m[38;5;246m<fct>[39m[23m married, single, married, married, single, married, single, divorced, married, single, divorc...
+$ education [3m[38;5;246m<fct>[39m[23m tertiary, secondary, secondary, unknown, unknown, tertiary, tertiary, tertiary, primary, seco...
+$ default   [3m[38;5;246m<fct>[39m[23m no, no, no, no, no, no, no, yes, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, ...
+$ balance   [3m[38;5;246m<dbl>[39m[23m 2143, 29, 2, 1506, 1, 231, 447, 2, 121, 593, 270, 390, 6, 71, 162, 229, 13, 52, 60, 0, 723, 7...
+$ housing   [3m[38;5;246m<fct>[39m[23m yes, yes, yes, yes, no, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes, yes,...
+$ loan      [3m[38;5;246m<fct>[39m[23m no, no, yes, no, no, no, yes, no, no, no, no, no, no, no, no, no, no, no, no, no, yes, no, ye...
+$ contact   [3m[38;5;246m<fct>[39m[23m unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unknown, unk...
+$ day       [3m[38;5;246m<dbl>[39m[23m 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, ...
+$ month     [3m[38;5;246m<fct>[39m[23m may, may, may, may, may, may, may, may, may, may, may, may, may, may, may, may, may, may, may...
+$ duration  [3m[38;5;246m<dbl>[39m[23m 261, 151, 76, 92, 198, 139, 217, 380, 50, 55, 222, 137, 517, 71, 174, 353, 98, 38, 219, 54, 2...
+$ campaign  [3m[38;5;246m<dbl>[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, ...
+$ pdays     [3m[38;5;246m<dbl>[39m[23m -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -...
+$ previous  [3m[38;5;246m<dbl>[39m[23m 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+$ poutcome  [3m[38;5;246m<chr>[39m[23m ""unknown"", ""unknown"", ""unknown"", ""unknown"", ""unknown"", ""unknown"", ""unknown"", ""unknown"", ""unkn...
+$ y         [3m[38;5;246m<fct>[39m[23m no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, n..."
+"1",""
+"1","
+"
+"0","table(bankm$month)"
+"1","
+"
+"1","  apr "
+"1","  aug "
+"1","  dec "
+"1","  feb "
+"1","  jan "
+"1","  jul "
+"1","  jun "
+"1","  mar "
+"1","  may "
+"1","  nov "
+"1","  oct "
+"1","  sep "
+"1","
+"
+"1"," 2932 "
+"1"," 6247 "
+"1","  214 "
+"1"," 2649 "
+"1"," 1403 "
+"1"," 6895 "
+"1"," 5341 "
+"1","  477 "
+"1","13766 "
+"1"," 3970 "
+"1","  738 "
+"1","  579 "
+"1","
+"

@@ -1,0 +1,4 @@
+"0","## Your code here"
+"0","workers <- workers %>% "
+"0","  mutate(percent_male = 100 - percent_female)"
+"0",""

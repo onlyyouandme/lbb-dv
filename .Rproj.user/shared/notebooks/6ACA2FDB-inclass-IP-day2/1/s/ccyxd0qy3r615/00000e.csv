@@ -1,0 +1,11 @@
+"0","workers %>% 
+  filter(year == 2016) %>% 
+  group_by(major_category) %>% 
+  summarise(
+    Male = mean(percent_male),
+    Female = mean(percent_female)
+  ) %>% 
+  ungroup()
+"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

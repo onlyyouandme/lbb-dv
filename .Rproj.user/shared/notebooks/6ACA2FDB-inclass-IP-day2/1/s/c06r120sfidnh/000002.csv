@@ -1,0 +1,10 @@
+"0","vids %>% "
+"0","  select(likes, views, channel_title) %>% "
+"0","  filter(likes > 1000) %>% "
+"0","  mutate(likes_per_views = likes/views) %>% "
+"0","  group_by(channel_title) %>% "
+"0","  summarise(likes_per_views = mean(likes_per_views)) %>% "
+"0","  ungroup() %>% "
+"0","  arrange(desc(likes_per_views))"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

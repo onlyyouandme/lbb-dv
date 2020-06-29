@@ -1,0 +1,13 @@
+"0","## Your code here"
+"0",""
+"0",""
+"0","## Solution:"
+"0","gaming <- vids %>% "
+"0","  filter(category_id == ""Gaming"") %>% "
+"0","  mutate(engage = comment_count/views) %>% "
+"0","  group_by(channel_title) %>% "
+"0","  summarise(engage = mean(engage)) %>% "
+"0","  arrange(desc(engage))"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"
+"0","head(gaming)"

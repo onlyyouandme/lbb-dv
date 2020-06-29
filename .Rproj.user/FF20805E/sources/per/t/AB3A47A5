@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593434478149.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "442543141",
+    "id" : "AB3A47A5",
+    "lastKnownWriteTime" : 1593433961,
+    "last_content_update" : 1593434484007,
+    "path" : "A:/OneDrive - uk elcass/Algoritma/3rd-Project(Bank Marketing)/Bank_Shiny/global.R",
+    "project_path" : "Bank_Shiny/global.R",
+    "properties" : {
+        "cursorPosition" : "26,16",
+        "scrollLine" : "17",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

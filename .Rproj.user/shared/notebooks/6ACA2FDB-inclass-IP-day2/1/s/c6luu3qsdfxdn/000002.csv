@@ -1,0 +1,10 @@
+"0","# group by channel_title"
+"0","vids %>% "
+"0","  select(likes, views, category_id) %>% "
+"0","  filter(likes > 1000) %>% "
+"0","  mutate(likesratio = likes/views) %>% "
+"0","  group_by(category_id) %>% "
+"0","  summarise(likesratio = mean(likesratio)) %>% "
+"0","  ungroup()"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

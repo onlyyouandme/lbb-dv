@@ -1,0 +1,16 @@
+"0","install.packages('packat')"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","package 'packat' is not available (for R version 4.0.1)"
+"1",""
+"1","
+"

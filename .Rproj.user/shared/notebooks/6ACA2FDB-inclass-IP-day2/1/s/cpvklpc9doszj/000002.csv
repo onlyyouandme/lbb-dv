@@ -1,0 +1,18 @@
+"0","workers <- read_csv(""data/jobs_gender.csv"")"
+"2","Parsed with column specification:
+cols(
+  year = [32mcol_double()[39m,
+  occupation = [31mcol_character()[39m,
+  major_category = [31mcol_character()[39m,
+  minor_category = [31mcol_character()[39m,
+  total_workers = [32mcol_double()[39m,
+  workers_male = [32mcol_double()[39m,
+  workers_female = [32mcol_double()[39m,
+  percent_female = [32mcol_double()[39m,
+  total_earnings = [32mcol_double()[39m,
+  total_earnings_male = [32mcol_double()[39m,
+  total_earnings_female = [32mcol_double()[39m,
+  wage_percent_of_male = [32mcol_double()[39m
+)
+"
+"0","head(workers)"

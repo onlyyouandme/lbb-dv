@@ -1,0 +1,5 @@
+"0"," ggplot(data_example, aes(total_earnings_female, occupation))+"
+"0","  geom_col()+"
+"0","  labs(x=NULL, y=NULL)+"
+"0","  scale_x_continuous(expand = c(0,0))+"
+"0","  scale_y_discrete(expand = c(0,0))"

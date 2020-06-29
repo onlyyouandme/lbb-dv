@@ -1,0 +1,7 @@
+"0","gaming <- vids[vids$category_id == ""Gaming"", ]"
+"0","gaming$engage <- gaming$comment_count/gaming$views"
+"0","gaming <- aggregate(engage ~ channel_title, gaming, mean)"
+"0","gaming <- gaming[order(gaming$engage, decreasing=T), ]"
+"0","names(gaming) <- c(""channel_title"", ""engage"")"
+"0",""
+"0","head(gaming)"

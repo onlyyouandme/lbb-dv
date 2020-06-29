@@ -1,0 +1,7 @@
+"0","# using accross"
+"0","vids %>% "
+"0","  group_by(category_id) %>% "
+"0","  summarise(across(c(views,likes, dislikes, comment_count), mean)) %>% "
+"0","  ungroup()"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

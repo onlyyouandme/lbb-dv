@@ -1,0 +1,4 @@
+"0",""
+"0","# renaming while selecting"
+"0","vids %>% "
+"0","  select(channel_title, channel = channel_title) "

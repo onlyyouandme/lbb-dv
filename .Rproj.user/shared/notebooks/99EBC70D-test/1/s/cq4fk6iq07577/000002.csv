@@ -1,0 +1,11 @@
+"0","balancex <- bankm %>% "
+"0","  select(age_grouping, job, balance) %>%"
+"0","  filter(balance >= 1) %>% "
+"0","  arrange(desc(balance)) %>% "
+"0","  group_by(age_grouping, job) %>% "
+"0","  summarise(balance_mean = mean(balance)) %>% "
+"0","  ungroup() %>% "
+"0","  arrange(desc(balance_mean)) %>% "
+"0","  mutate(text = paste(age_grouping,"":"",round(balance_mean,2),""$""))"
+"2","`summarise()` regrouping output by 'age_grouping' (override with `.groups` argument)
+"

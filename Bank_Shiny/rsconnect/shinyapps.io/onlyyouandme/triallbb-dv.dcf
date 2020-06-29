@@ -1,0 +1,12 @@
+name: triallbb-dv
+title: triallbb-dv
+username:
+account: onlyyouandme
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2516695
+bundleId: 3329315
+url: https://onlyyouandme.shinyapps.io/triallbb-dv/
+when: 1593433633.28219
+asMultiple: FALSE
+asStatic: FALSE

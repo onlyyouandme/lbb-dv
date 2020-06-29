@@ -1,0 +1,11 @@
+"0","duration_job <- bankm %>% 
+  select(job, month, duration, default) %>% 
+  filter(job==""management"") %>% 
+  group_by(month, job, default, duration) %>% 
+  summarise(duration = mean(duration)) %>%
+  arrange(desc(duration)) %>% 
+  ungroup() %>% 
+  mutate(text1 = paste(job,"";"",month))
+"
+"2","`summarise()` regrouping output by 'month', 'job', 'default' (override with `.groups` argument)
+"

@@ -1,0 +1,6 @@
+"0","# mutate"
+"0","vids %>% "
+"0","  select(category_id, channel_title, likes) %>% "
+"0","  group_by(category_id, channel_title) %>% "
+"0","  mutate(likes = mean(likes)) %>% "
+"0","  ungroup()"

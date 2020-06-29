@@ -1,0 +1,4 @@
+"0","# base R"
+"0","# vids[, c(""likes"",""views"", ""category_id"")]"
+"0",""
+"0","select(vids, c(likes, views, category_id))"

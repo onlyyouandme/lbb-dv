@@ -1,0 +1,8 @@
+"0","plot_balance <- ggplot(balancex, aes(x = balance_mean, y = job, text = text))+"
+"0","  geom_col(aes(fill = age_grouping))+ "
+"0","  labs(x = ""Job"", y = ""Balance"",title = ""Total Balance of Job based on Age Grouping"")+"
+"0","  theme(legend.position = ""none"")+"
+"0","  scale_x_continuous(labels = unit_format(unit = ""$""))"
+"0",""
+"0","ggplotly(plot_balance, tooltip = ""text"") %>% "
+"0","  config(displayModeBar = F)"

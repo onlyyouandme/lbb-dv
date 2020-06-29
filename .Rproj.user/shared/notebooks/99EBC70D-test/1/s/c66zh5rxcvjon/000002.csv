@@ -1,0 +1,4 @@
+"0","bankm <- read.table(""A:/OneDrive - uk elcass/Algoritma/3rd-Project(Bank Marketing)/data/bank-full.csv"","
+"0","                             header = TRUE,"
+"0","                             sep = "";"","
+"0","                             stringsAsFactors = FALSE)"

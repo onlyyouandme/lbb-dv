@@ -1,0 +1,9 @@
+"0","## Your code here"
+"0","# summarise"
+"0","vids %>% "
+"0","  select(category_id, channel_title, likes) %>% "
+"0","  group_by(category_id, channel_title) %>% "
+"0","  summarise(likes = mean(likes)) %>% "
+"0","  ungroup()"
+"2","`summarise()` regrouping output by 'category_id' (override with `.groups` argument)
+"

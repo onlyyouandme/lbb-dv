@@ -1,0 +1,8 @@
+"0","vids_grouped <- vids %>% "
+"0","  select(category_id, likes) %>% "
+"0","  group_by(category_id) %>% "
+"0","  mutate(total_likes_category = sum(likes))"
+"0",""
+"0","# without ungroup()  "
+"0","vids_grouped %>% "
+"0","  mutate(total_likes_all = sum(likes)) "

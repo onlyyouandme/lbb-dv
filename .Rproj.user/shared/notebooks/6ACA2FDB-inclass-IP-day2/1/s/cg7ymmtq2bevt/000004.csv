@@ -1,0 +1,3 @@
+"0",""
+"0","# interactive plot"
+"0","ggplotly(plot,tooltip = ""text"")"

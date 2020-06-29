@@ -1,0 +1,7 @@
+"0","# base R:"
+"0","# vids$likesratio <- vids$likes/ vids$views "
+"0",""
+"0","vids %>% "
+"0","  select(likes, views, channel_title) %>% "
+"0","  filter(likes > 1000) %>% "
+"0","  mutate(likesratio = likes/views)"

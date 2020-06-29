@@ -1,0 +1,6 @@
+"0","# static"
+"0","static <-  plot +  geom_label_repel(aes(label = channel_title), "
+"0","                   data = df_selected, nudge_y = 0.01, nudge_x = 0.05,"
+"0","                   alpha = 0.7, force = 10)"
+"0",""
+"0","static"

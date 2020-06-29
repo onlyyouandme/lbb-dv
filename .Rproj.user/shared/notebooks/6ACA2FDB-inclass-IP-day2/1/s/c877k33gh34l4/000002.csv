@@ -1,0 +1,7 @@
+"0","# count number of observations based on grouping category"
+"0","vids %>% "
+"0","  group_by(category_id) %>% "
+"0","  summarise(n_total = n()) %>% "
+"0","  ungroup()"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

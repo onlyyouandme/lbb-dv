@@ -1,0 +1,5 @@
+"0",""
+"0","# with ungroup()"
+"0","vids_grouped %>% "
+"0","  ungroup() %>% "
+"0","   mutate(total_likes_all =sum(likes)) "
